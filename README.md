@@ -1,6 +1,6 @@
 Simple application demonstrating the issue raised in a GCP bug report.
 
-Build using `gradlew build`, and then run the application using `java -jar build/libs/bigtable-jdk-issue-all.jar`.
+Build using `./gradlew build`, and then run the application using `java -jar build/libs/bigtable-jdk-issue-all.jar`.
 At least Java 17 is required to run the example.
 
 If the firewall is configured to refuse incoming network connections the application takes ~16-17 seconds to run, 
